@@ -95,10 +95,10 @@ const Home: NextPage = () => {
           <div className={styles.contentWelcome}>
             <div className={styles.boxText}>
               <span className={styles.spanWelcome}>BOAS-VINDAS A MAVIFLORES 👋</span>
-              <h1 className={styles.titleWelcome}>Pisicologia Infantil</h1>
+              <h1 className={styles.titleWelcome}>Psicologia clinica</h1>
 
               <p className={styles.descriptionWelcome}>
-                Tratamento infantil, vai além do cuidar da deficiência. O carinho, o amor, e fazer com que a criança se desenvolva é o que nós oferecemos!
+                A terapia é um espaço seguro, pautado pelo sigilo, não julgamento e acolhimento, mediado por um profissional capacitado para fornecer ferramentas para que possa lidar com suas questões, dificuldades e desenvolvimento.
               </p>
 
               <Button variant='primary' icon> 
@@ -109,16 +109,12 @@ const Home: NextPage = () => {
           
           <ul className={styles.contentAbsoluteWelcome}>
             <li>
-              <h3>+3.500</h3>
-              <span>Pacientes atendidos</span>
+              <span>Psicoterapia para:</span>
+              <h3>Adulto e infantil-juvenil</h3>
             </li>
             <li>
-              <h3>+15</h3>
-              <span>Especialistas disponíveis</span>
-            </li>
-            <li>
-              <h3>+10</h3>
-              <span>Anos no mercado</span>
+              <span>Formas de atendimento:</span>
+              <h3>Presencial e online</h3>
             </li>
           </ul>
         </section>
@@ -157,12 +153,6 @@ const Home: NextPage = () => {
                 <h3>Inteligência emocional</h3>
                 <p>
                   Tenha capacidade de identificar, avaliar e lidar com seus sentimentos e emoções,assim como, dentro de suas relações.
-                </p>
-              </li>
-              <li>
-                <h3>Criatividade</h3>
-                <p>
-                  Aqui a criança é livre para pensar e criar e tangibilizar seus sonhos, sua maneira de ver o mundo, o sonho que toda criança merece ter.
                 </p>
               </li>
             </ul>
