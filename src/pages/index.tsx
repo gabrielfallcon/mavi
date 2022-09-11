@@ -130,33 +130,33 @@ const Home: NextPage = () => {
 
             <ul className={styles.listServices}>
               <li>
-                <h3>Iteração Social</h3>
+                <h3>Hábitos saudaveis</h3>
                 <p>
-                  Ajudamos no desenvolvimento da comunicacação com outras crianças!
+                  Grande parte dos nossos comportamentos diários baseia-se nos nossos hábitos. Hábitos saudáveis são cruciais para uma vida com bem estar e qualidade.
                 </p>
               </li>
               <li>
                 <h3>Autoestima</h3>
                 <p>
-                  Trabalhamos no pensamento da criança, fazendo-a a pensar que ela é suficiente e capaz, pois ela realmente é!
+                  Autoestima é a forma como você se enxerga, se valoriza e se vê diante de outras pessoas. A autoestima é um processo constante e influência em todos os aspectos de sua vida.
                 </p>
               </li>
               <li>
-                <h3>Desenvolvimento</h3>
+                <h3>Autoconhecimento</h3>
                 <p>
                   Ajudamos no Desenvolvimento pessoal descobrindo as coisas que elas gostam e desenvolvendo seu potencial máximo
                 </p>
               </li>
               <li>
-                <h3>Inteligência Emocional</h3>
+                <h3>Desenvolvimento pessoal</h3>
                 <p>
-                  Ajudamos todas as crianças a ter um controle emocional para mantê-las calmas
+                  Potencialize suas competências e trabalhe no desenvolvimento de suas habilidades pessoais visando a melhora da qualidade de vida e atingir objetivos.
                 </p>
               </li>
               <li>
-                <h3>Rendimento Escolar</h3>
+                <h3>Inteligência emocional</h3>
                 <p>
-                  Cuidamos do raciocínio lógico da criança para ela evoluir na escola
+                  Tenha capacidade de identificar, avaliar e lidar com seus sentimentos e emoções,assim como, dentro de suas relações.
                 </p>
               </li>
               <li>
@@ -174,7 +174,7 @@ const Home: NextPage = () => {
             <img src="/image/Pic01.png" alt="image Doctor" className={styles.imgAbout}/>
 
             <div className={styles.boxTextAbout}>
-              <span>Sobre nós</span>
+              <span>Quem sou?</span>
 
               <h2>Entenda quem somos e por que existimos</h2>
 
