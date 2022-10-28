@@ -348,7 +348,8 @@
         text-transform: uppercase;
 
         @media (max-width: 768px) {
-          font-size: 48px;
+          text-align: center;
+          line-height: 150%;
         }
       }
       span {

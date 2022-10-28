@@ -19,10 +19,10 @@ const Home: NextPage = () => {
           <img src="/image/maria.png" alt="" className={styles.logoHeader}/> 
 
           <ul className={styles.listHeader}>
-            <li><a href="">Inicio</a></li>
-            <li><a href="">Sobre</a></li>
-            <li><a href="">Terapia</a></li>
-            <li><a href="">Depoimentos</a></li>
+            <li><a href="#welcome">Inicio</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#contact">Contato</a></li>
           </ul>
 
           <Button variant='secondary'> 
@@ -54,34 +54,24 @@ const Home: NextPage = () => {
               <img src="/image/maria.png" alt="Ameta Serviços"/>
 
               <nav className={styles.navMenuMobile}>
-                <Link href="/">
+                <Link href="#welcome">
                   <a onClick={handleMenuMobile}>
                     Inicio
                   </a>
                 </Link>
-                <Link href="/">
-                  <a onClick={handleMenuMobile}>
-                    Quem Somos
-                  </a>
-                </Link>
-                <Link href="/">
+                <Link href="#services">
                   <a onClick={handleMenuMobile}>
                     Serviços
                   </a>
                 </Link>
-                <Link href="/">
+                <Link href="#about">
+                  <a onClick={handleMenuMobile}>
+                    Sobre
+                  </a>
+                </Link>
+                <Link href="#contact">
                   <a onClick={handleMenuMobile}>
                     Contato
-                  </a>
-                </Link>
-                <Link href="/">
-                  <a onClick={handleMenuMobile}>
-                    Trabalhe Conosco
-                  </a>
-                </Link>
-                <Link href="/">
-                  <a onClick={handleMenuMobile}>
-                    Vagas
                   </a>
                 </Link>
               </nav>
@@ -91,7 +81,7 @@ const Home: NextPage = () => {
       </header>
 
       <main>
-        <section className={styles.welcome}>
+        <section className={styles.welcome} id="welcome">
           <div className={styles.contentWelcome}>
             <div className={styles.boxText}>
               <span className={styles.spanWelcome}>BOAS-VINDAS A MAVIFLORES 👋</span>
@@ -119,7 +109,7 @@ const Home: NextPage = () => {
           </ul>
         </section>
 
-        <section className={styles.services}>
+        <section className={styles.services} id="services">
           <div className={styles.contentServices}>
             <span className={styles.spanServices}>Terapia</span>
             <h2 className={styles.titleService}>Como a terapia pode ajudar?</h2>
@@ -159,9 +149,9 @@ const Home: NextPage = () => {
           </div>
         </section>
 
-        <section className={styles.about}>
+        <section className={styles.about} id="about">
           <div className={styles.contentAbout}>
-            <img src="/image/Pic01.png" alt="image Doctor" className={styles.imgAbout}/>
+            <img src="/image/maria-profile.jpeg" alt="image Doctor" className={styles.imgAbout}/>
 
             <div className={styles.boxTextAbout}>
               <span>Quem sou?</span>
@@ -175,7 +165,7 @@ const Home: NextPage = () => {
           </div>
         </section>
 
-        <section className={styles.contact}>
+        <section className={styles.contact} id="contact">
           <div className={styles.contentContact}>
             <div className={styles.boxTextContact}>
               <h2>Entre em contato com a gente!</h2>
@@ -194,7 +184,7 @@ const Home: NextPage = () => {
               </Button>
             </div>
 
-            <img src="/image/bannerContact.png" alt="" className={styles.imgContact}/>
+            <img src="/image/background01.jpeg" alt="" className={styles.imgContact}/>
           </div>
         </section>
       </main>
