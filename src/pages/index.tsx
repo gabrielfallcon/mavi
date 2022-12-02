@@ -159,8 +159,10 @@ const Home: NextPage = () => {
               <h2>Entenda quem somos e por que existimos</h2>
 
               <p>
-                <strong>Maria Victoria Flores</strong>, uma Pisicóloga, tem um grande afeto por crianças, vê-las feliz não tem preço, mais do que um trabalho, é poder mudar a vida delas através do meu propósito.
+                Psicóloga Clínica Graduada, aplicadora aba e pós graduanda em ludoterapia. Atuo a 3 anos na psicoterapia,com emoções, pensamentos e comportamentos, com o público infantil neurotipico e atípico. E orientação de pais.
               </p>
+
+              <span>CRP: 06/181599</span>
             </div>
           </div>
         </section>
